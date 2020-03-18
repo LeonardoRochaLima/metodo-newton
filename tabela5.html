@@ -1,0 +1,77 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculo</title>
+</head>
+<body>
+    <form>
+        <h1 class="Titulo"> Interpolação - Lagrange
+        </h1>
+
+            <div>
+            <h2>DEFINA O PONTO</h2>
+                <label class="numero" for="ponto">PONTO
+                </label>
+                <input type="number" id="ponto">
+            </div>
+
+            <div>
+            <h2>VALORES DE X </h2>
+                <label class="numero" for="x0">X0
+                </label>
+                <input type="number" id="x0">
+
+                <label class="numero" for="x1">X1
+                </label>
+                <input type="number" id="x1">
+            </div>
+
+            <div>
+                <label class="numero" for="x2">X2
+                </label>
+                <input type="number" id="x2">
+
+                <label class="numero" for="x3">X3
+                </label>
+                <input type="number" id="x3">
+
+                <label class="numero" for="x4">X4
+                </label>
+                <input type="number" id="x4">
+            </div> 
+
+            <div>
+            <h2>VALORES DE F(X) </h2>
+                <label class="numero" for="fx0">fx0
+                </label>
+                <input type="number" id="fx0">
+
+                <label class="numero" for="fx1">fx1
+                </label>
+                <input type="number" id="fx1">
+            </div>
+
+            <div>
+                <label class="numero" for="fx2">fx2
+                </label>
+                <input type="number" id="fx2">
+
+                <label class="numero" for="fx3">fx3
+                </label>
+                <input type="number" id="fx3">
+
+                <label class="numero" for="fx4">fx4
+                </label>
+                <input type="number" id="fx4">
+            </div> 
+<br></br>
+        <div>
+            <button type="button" onclick="document.write(resolveCinco())">Resolver</button> 
+        </div>                                           
+    </form>
+    <script type="text/javascript" src="script.js"></script>     
+</body>
+</html>

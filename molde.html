@@ -1,0 +1,75 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculo</title>
+</head>
+<body>
+    <form>
+        <h1 class="Titulo"> Interpolação - Lagrange
+        </h1>
+
+            <div>
+            <h2>DEFINA O PONTO</h2>
+                <label class="numero" for="ponto">PONTO
+                </label>
+                <input type="number" for="ponto">
+            </div>
+
+            <div>
+            <h2>VALORES DE X </h2>
+                <label class="numero" for="x0">X0
+                </label>
+                <input type="number" id="x0">
+
+                <label class="numero" for="x1">X1
+                </label>
+                <input type="number" id="x1">
+            </div>
+
+            <div>
+                <label class="numero" for="x2">X2
+                </label>
+                <input type="number" id="x2">
+
+                <label class="numero" for="x3">X3
+                </label>
+                <input type="number" id="x3">
+
+                <label class="numero" for="x4">X4
+                </label>
+                <input type="number" id="x4">
+            </div> 
+
+            <div>
+            <h2>VALORES DE F(X) </h2>
+                <label class="numero" for="f(x0)">f(x0)
+                </label>
+                <input type="number" id="f(x0)">
+
+                <label class="numero" for="f(x1)">f(x1)
+                </label>
+                <input type="number" id="f(x1)">
+            </div>
+
+            <div>
+                <label class="numero" for="f(x2)">f(x2)
+                </label>
+                <input type="number" id="f(x2)">
+
+                <label class="numero" for="f(x3)">f(x3)
+                </label>
+                <input type="number" id="f(x3)">
+
+                <label class="numero" for="f(x4)">f(x4)
+                </label>
+                <input type="number" id="f(x4)">
+            </div> 
+                                           
+    </form>
+<br></br>
+  <button type="button" onclick="resolverDois()">Calcular</button>
+</body>
+</html>
